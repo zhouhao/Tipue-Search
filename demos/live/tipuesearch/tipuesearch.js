@@ -1,6 +1,6 @@
 
 /*
-Tipue Search 3.1
+Tipue Search 3.1.1
 Copyright (c) 2013 Tipue
 Tipue Search is released under the MIT License
 http://www.tipue.com/search
@@ -305,12 +305,12 @@ http://www.tipue.com/search
                                    }
                                    else
                                    {
-                                        var p_b = pages + 2;
+                                        var p_b = page + 2;
                                         if (p_b > pages)
                                         {
                                              p_b = pages; 
                                         }
-                                        for (var f = page; f < p_b; f++)
+                                        for (var f = page - 1; f < p_b; f++)
                                         {
                                              if (f == page)
                                              {
@@ -320,8 +320,8 @@ http://www.tipue.com/search
                                              {
                                                   out += '<li><a href="javascript:void(0)" class="tipue_search_foot_box" id="' + (f * set.show) + '_' + replace + '">' + (f + 1) + '</a></li>';
                                              }
-                                        }                         
-                                   }
+                                        }
+                                   }                         
                                                       
                                    if (page + 1 != pages)
                                    {

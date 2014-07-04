@@ -7,13 +7,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400|Merriweather:300,300italic" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <link rel="stylesheet" href="../../inc/normalize.css">
-<link rel="stylesheet" href="../../inc/simplegrid.css">
 <link rel="stylesheet" href="../../inc/standard.css">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <script type="text/javascript" src="tipuesearch/tipuesearch_set.js"></script>
 <link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
@@ -25,30 +24,25 @@
 <!-- head -->
 
 
-<div id="head">
-<div style="float: left;"><a class="item" href="http://www.tipue.com"><img src="../../img/head.png" style="width: 30px; height: 30px;" alt="Tipue"></a></div>
-</div>
+<div id="head"><div class="head_icon"><a href="http://www.tipue.com"><img src="../../img/head.png" alt="Tipue"></a></div></div>
 
 
 <!-- body -->
 
 
-<div id="container">
-<div class="grid grid-pad">
+<div class="center" style="padding-top: 90px;"><a href="http://www.tipue.com/search"><img src="../../img/radio3.png" alt="Tipue Search"></a></div>
+<div class="center"><div class="inner" style="padding-top: 27px;"><h2>Tipue Search Live Mode Demo</h2></div></div>
 
-<div class="col-1-1">
+<div class="block" style="padding-top: 39px;">
 
-<div class="block">
-<div style="padding: 30px;">
-
-<div style="float: left;"><input type="text" id="tipue_search_input"></div>
-<div style="float: left; margin-left: 13px;"><input type="button" id="tipue_search_button"></div>
+<form action="search.html">
+<input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+</form>
 <div id="tipue_search_content"></div>
 
-</div></div>
 
-</div>
-</div>
+
+<div class="center ital" style="padding: 39px 0 30px 0;">&copy; 2014, <a href="http://www.tipue.com">Tipue</a>. Made in London.</div>
 
 <script>
 $(document).ready(function() {

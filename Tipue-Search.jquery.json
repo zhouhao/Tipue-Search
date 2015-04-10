@@ -6,7 +6,7 @@
           "search",
           "site-search"
      ],
-     "version": "4.0.0",
+     "version": "5.0.0",
      "author": {
           "name": "Tipue",
           "url": "http://www.tipue.com"
@@ -21,6 +21,6 @@
      "docs": "http://www.tipue.com/search/docs/",
      "download": "http://www.tipue.com/search/",
      "dependencies": {
-          "jquery": ">=1.11.1"
+          "jquery": ">=2.1.3"
      }
 }

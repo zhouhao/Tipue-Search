@@ -3,18 +3,21 @@
 /* basics */
 
 
-body
-{
-	line-height: 0;
-}
 a
 {
      cursor: pointer;
+     outline: 0;
 }
 p
 {
      padding-top: 13px;
      margin: 0;
+}
+ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 .clear
 {
@@ -24,25 +27,15 @@ p
 {
      white-space: nowrap;
 }
-.inner
-{
-     display: inline-block;
-     max-width: 700px;
-     padding: 0 30px;
-}
 .center
 {
      text-align: center;
 }
-.outer-block
-{
-     padding: 0 30px;
-}
 .block
 {
      margin: 0 auto;
-     max-width: 700px;
-     padding: 0 30px; 
+     max-width: 900px;
+     padding: 0 30px;
 }
 
 
@@ -51,33 +44,30 @@ p
 
 h2
 {
-     font: 16px/1.7 'Open Sans', sans-serif;
-	color: #333;
-	text-transform: uppercase;
-	letter-spacing: 2px;
+     font: 100 30px/1.3 Roboto, sans-serif;
+     color: #666;
      margin: 0;
+     padding: 0;
 }
 
-.norm
+.low
 {
-     font: 300 16px/1.7 Merriweather, serif;
-	color: #333;
+     font: 300 14px/1.7 Roboto, sans-serif;
+	color: #333;     
 }
-.ital
+.low a
 {
-     font: 300 italic 13px/1.7 Merriweather, serif;
-	color: #333;
+     color: #5396ea;
+     text-decoration: none;
 }
-
-.norm a, .ital a 
+.low a:hover
 {
      color: #333;
-     text-decoration: none;
-     border-bottom: 1px solid #999;
 }
-.norm a:hover, .ital a:hover
+.mow
 {
-     border: 0;
+     font: 300 13px/1.7 Roboto, sans-serif;
+     color: #777;
 }
 
 
@@ -89,16 +79,20 @@ h2
      position: fixed;
      top: 0;
      width: 100%;
+     border-bottom: 1px solid #f3f3f3;
+     height: 63px;
      background-color: #fff;
-     border-bottom: 1px solid #f2f2f2;
-     opacity: 0.96;
-     z-index: 1000;
+     z-index: 100;
 }
-.head_icon
+.head_img
 {
-     float: left;
-     cursor: pointer;
-     padding: 15px;
+     margin: 15px;
 }
+.front_img
+{
+     max-width: 150px;
+     height: auto;
+}
+
 
 

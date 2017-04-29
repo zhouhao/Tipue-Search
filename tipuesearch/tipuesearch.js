@@ -19,15 +19,13 @@
             'debug': false,
             'descriptiveWords': 25,
             'highlightTerms': true,
-            'liveContent': '*',
-            'liveDescription': '*',
             'minimumLength': 3,
-            'newWindow': false,
+            'newWindow': true,
             'show': 9,
             'showContext': true,
             'showRelated': true,
             'showTime': true,
-            'showTitleCount': true,
+            'showTitleCount': false,
             'showURL': true,
             'wholeWords': true
 
